@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imageDocIcon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/description_black_192x192"
+        android:contentDescription="@string/note"/>
+
+    <TextView
+        android:id="@+id/tvNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="4dp"
+        android:layout_toEndOf="@+id/imageDocIcon"
+        android:layout_toRightOf="@+id/imageDocIcon"
+        android:singleLine="true"
+        android:text="Dummy Text"
+        android:maxLines="4"
+        android:lines="4"
+        android:textColor="@color/list_item_text"
+        android:textSize="18sp"
+        android:paddingBottom="8dp"/>
+
+</RelativeLayout>
