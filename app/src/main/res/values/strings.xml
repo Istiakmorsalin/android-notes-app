@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Notes</string>
+    <string name="app_name">Notes_Istiak</string>
     <string name="create_sample_data">Create sample Notes</string>
     <string name="delete_all_notes">Delete all Notes</string>
     <string name="are_you_sure">Are you sure?</string>
